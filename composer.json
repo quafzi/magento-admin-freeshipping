@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/magento-admin-freeshipping",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Provides a freeshipping method choosable from backend only",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Thomas Birke",
+            "email":"magento@netextreme.de"
+        }
+    ]
+}
