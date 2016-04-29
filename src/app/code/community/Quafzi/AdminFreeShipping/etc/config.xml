@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_AdminFreeShipping>
+            <version>1.0.0</version>
+        </Quafzi_AdminFreeShipping>
+    </modules>
+    <global>
+        <models>
+            <quafzi_adminfreeshipping>
+                <class>Quafzi_AdminFreeShipping_Model</class>
+            </quafzi_adminfreeshipping>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <admin_freeshipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>quafzi_adminfreeshipping/carrier_freeshipping</model>
+                <name>Offered Free</name>
+                <title>Offered Free Shipping</title>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+            </admin_freeshipping>
+        </carriers>
+    </default>
+</config>
